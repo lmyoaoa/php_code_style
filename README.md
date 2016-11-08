@@ -3,6 +3,8 @@
 
 #例子，与PHP编码规范.php一致
 
+可直接点击下方链接：
+
 https://github.com/lmyoaoa/php_code_style/blob/master/PHP%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.php
 
 <pre>
