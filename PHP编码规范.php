@@ -1,8 +1,9 @@
 <?php
 /**
  * @desc 一个文件一个类，注释必须都写，本规范以一个类来作为范例
+ * github url: https://github.com/lmyoaoa/php_code_style
  *
- * @author lmyoaoa（作者）
+ * @author lmyoaoa（作者） 
  * @since 2016-11-08
  */
 namespace codestyle;

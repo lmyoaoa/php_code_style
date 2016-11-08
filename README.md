@@ -10,6 +10,7 @@ https://github.com/lmyoaoa/php_code_style/blob/master/PHP%E7%BC%96%E7%A0%81%E8%A
 <pre>
 /**
  * @desc 一个文件一个类，注释必须都写，本规范以一个类来作为范例
+ * github url: https://github.com/lmyoaoa/php_code_style
  *
  * @author lmyoaoa（作者）
  * @since 2016-11-08
