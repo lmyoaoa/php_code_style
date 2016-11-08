@@ -10,6 +10,7 @@ namespace codestyle;
 use db\mysql;
 
 // 文件编码必须是utf-8格式，并且换行符必须是\n，即设置成unix换行符，windows为\r\n
+// 文件必须格式化成一个tab为4个空格（不仅仅是4个空格宽，要一个tab变为4个空格符）
 
 // 类名必须以大驼峰式命名
 // 类名之后必须跟空格
@@ -32,6 +33,21 @@ class CodeStyle {
     protected $_protectValue = 1;
     private $_pValue = 1;
 
+    /**
+     * @desc 公共方法以小驼峰式命名，注释必须写
+     *
+     * @author 作者必须写，方便日后其他人可以找到对应负责人
+     * @param int $keyName 参数1
+     * @param array $array 参数2，假如参数为数组，则必须写清楚数组的格式，如array(1, 2, 3,...)
+     * @return bool
+     */
+    // 大括号前必须有空格，变量与变量之间必须有空格隔开
+    public function funcName($keyName, $array) {
+        // 任何字符串，变量等拼接，都必须用空格隔开
+        $str = $keyName . '123456';
+
+        return TRUE;
+    }
 
 }
 
