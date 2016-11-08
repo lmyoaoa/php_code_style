@@ -1,5 +1,5 @@
 # php_code_style
-制作一个比较通用的php编码规范与大家分享
+制作一个比较通用的php google code style编码规范与大家分享
 
 #例子，与PHP编码规范.php一致
 
