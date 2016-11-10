@@ -10,7 +10,7 @@ namespace codestyle;
 
 use db\mysql;
 
-// 文件编码必须是utf-8格式，并且换行符必须是\n，即设置成unix换行符，windows为\r\n
+// 文件编码必须是utf-8格式，并且换行符必须是Unix LF (linefeed)，即设置成unix换行符，windows为\r\n
 // 文件必须格式化成一个tab为4个空格（不仅仅是4个空格宽，要一个tab变为4个空格符）
 // 基本命名均以驼峰命名，不允许使用this_name, key_value这种形式
 
