@@ -15,7 +15,7 @@ use db\mysql;
 // 基本命名均以驼峰命名，不允许使用this_name, key_value这种形式
 
 // 类名必须以大驼峰式命名
-// 类名之后必须跟空格
+// 类名之后必须跟空格 
 class CodeStyleForCar {
 
     // 类常量必须全大写，且每个单词以下划线_隔开
